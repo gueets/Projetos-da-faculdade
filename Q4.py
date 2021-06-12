@@ -6,7 +6,8 @@ litros = float(input('Litros que tem no automovel: '))
 
 possopercorrer = litros*eficiencia #litros/eficacia -> descobre quantos km POSSO rodar
 #print('p', p)
-km = math.sqrt((math.pow(x)+math.pow(y))) #quantos km vão rodar
+raiz = math.pow(x,2)+math.pow(y,2)
+km = math.sqrt(raiz) #quantos km vão rodar
 
 if possopercorrer>=km: #os km que VÃO rodar tem que ser MENOR OU IGUAL aos q eu POSSO rodar
     print('S')
